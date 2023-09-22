@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Adnan Chughtai',
   tagline: 'Something Coming Soon',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://adnanchughtai.com',
@@ -70,7 +70,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
+         /* {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -81,13 +81,13 @@ const config = {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
+          /*{
             title: 'Docs',
             items: [
               {
@@ -118,6 +118,7 @@ const config = {
               },
             ],
           },
+          */
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Adnan Chughtai.`,
       },
