@@ -66,10 +66,12 @@ const config = {
       navbar: {
         title: 'Adnan Chughtai',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Kabah Logo',
+          src: 'img/logo.png',
         },
         items: [
+          { to: "/about", label: "About", position: "right" },
+          { to: "/blog", label: "Blog", position: "right" },
          /* {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -85,40 +87,27 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
+        logo: {
+          alt: "Kabah Logo",
+          href: "/",
+          src: "img/logo.png",
+          height: 50,
+          width: 50,
+        },
         links: [
-          /*{
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+          {
+            label: "GitHub",
+            href: "https://github.com/adnan",
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/adnanc',
-              },
-            ],
+            label: "LinkedIn",
+            href: "https://www.linkedin.com/in/adnanc",
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/adnan',
-              },
-            ],
+            label: "Twitter",
+            href: "https://www.twitter.com/adnan",
           },
-          */
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Adnan Chughtai.`,
       },
